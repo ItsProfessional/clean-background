@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "clean-background",
+  "version": "${version}",
+  "name": "Clean Background",
+  "description": "Removes the darker box in GUI screens",
+  "authors": [
+    "ItsProfessional"
+  ],
+  "contact": {
+    "repo": "https://github.com/ItsProfessional/clean-background"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/clean-background/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+    ],
+    "client": [
+    ]
+  },
+  "mixins": [
+    "clean-background.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
